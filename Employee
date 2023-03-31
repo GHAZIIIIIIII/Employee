@@ -1,0 +1,31 @@
+package employee;
+
+public class Employee {
+
+    String nama
+          ,status;
+    
+    int nip
+        ,gaji[] = {14000000,7000000,4500000}
+        ,bonus = 650000
+        ,potongan = 200000
+        ,waktu;
+
+    void nama(String nama){
+    this.nama=nama;
+    }
+          
+    void status(String status){
+    this.status=status;
+    }
+    
+    void nip(int nip){
+    this.nip=nip;
+    }
+    
+    void waktu(int waktu){
+        this.waktu = waktu;
+    }
+
+
+}
