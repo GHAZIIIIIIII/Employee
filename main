@@ -1,0 +1,38 @@
+package employee;
+
+public class main {
+
+
+    public static void main(String[] args) {
+     
+        Boss b = new Boss();
+        Manager m = new Manager();
+        CleaningServis cs = new CleaningServis();
+        
+        b.nama("Mawan");
+        b.status("Menikah");
+        b.waktu(6);
+        b.nip(443211);
+        b.output();
+        
+        m.nama("EKO");
+        m.nip(443212);
+        m.waktu(8);
+        m.status("Belum");
+        m.output();
+        
+        cs.nama("Fuad");
+        cs.status("Menikah");
+        cs.nip(443213);
+        cs.waktu(8);
+        cs.output();
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
